@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Wakanda Technology</h1>
+  </header>
+
+  <main>
+    <section>
+      <button id="changeTextBtn">Click me!</button>
+      <p id="text">Greetings from your king.Welcome to Wakanda...</p>
+    </section>
+
+    <section class="gallery">
+      <img src="https://cdnb.artstation.com/p/assets/covers/images/057/990/919/large/masayuki-koyama-masayuki-koyama-shota-10frame.jpg?1673145108" alt="Sample" id="galleryImage">
+    </section>
+
+    <section>
+      <input type="text" id="keyInput" placeholder="Enter your codes.." />
+      <p id="keyOutput"></p>
+    </section>
+
+    <section>
+      <form id="signupForm">
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button type="submit">Sign Up</button>
+        <p id="formFeedback"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer ondblclick="secretAction()">
+    <p>The PANTHER lives! 🎉</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
